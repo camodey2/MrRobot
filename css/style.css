@@ -1,0 +1,87 @@
+*
+  { 
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: black;
+    color: #e3e2dc;
+    padding-left: 11em;
+    font-family: 'Sofia Sans', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+
+/* p {
+    color: rgb(215, 45, 45)!important;
+} */
+
+
+ /* #primer-especial {
+    color: rgb(6, 6, 145);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} */
+ 
+
+/* .especial{
+    color: rgb(48, 220, 18);
+} */
+
+/* p{
+    color: rgb(233, 184, 24);
+} */
+
+.navbar {
+   margin: 10px;
+}
+.navbar li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* .articulo h2 ~ span {
+    color: rgb(246, 2, 2);
+} */
+
+.articulo h2 + span {
+    color: rgb(248, 240, 6);
+}
+
+.ejemplo {
+    background-color: rgb(150, 233, 153);
+    width: 300px;
+    height: 400px;
+    /* max-width: 500px;
+    min-width: 200px; */
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border: 5px dotted #000;
+}
+
+#titulo {
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+a:link {
+    color: rgb(33, 10, 243);
+}
+a:visited {
+    color: rgb(127, 8, 232);
+}
+a:hover {
+    color: rgb(8, 232, 68);
+    font-size: 20px;
+}
+input:focus {
+    background: #e3e2dc;
+}
+
+p:not(.miP) {
+    color: rgb(205, 26, 86);
+}
+
+
